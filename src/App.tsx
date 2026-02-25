@@ -107,8 +107,10 @@ export default function App() {
         /* Efeito de Parallax suave no background do Hero */
         .bg-hero-pattern {
           background-image: url('/foto-nova.jpg');
-          background-size: cover;
+          background-size: contain;
           background-position: center bottom;
+          background-repeat: no-repeat;
+          background-color: #0a0a0a;
         }
 
         /* Estrutura para o Footer Reveal Animation */
