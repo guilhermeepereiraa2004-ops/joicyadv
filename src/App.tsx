@@ -106,9 +106,9 @@ export default function App() {
         
         /* Efeito de Parallax suave no background do Hero */
         .bg-hero-pattern {
-          background-image: url('/Foto titulo adv.jpeg');
+          background-image: url('/foto-nova.jpg');
           background-size: cover;
-          background-position: center top;
+          background-position: center bottom;
         }
 
         /* Estrutura para o Footer Reveal Animation */
@@ -141,12 +141,9 @@ export default function App() {
       {/* NAVEGAÇÃO */}
       <nav className={`fixed w-full z-50 transition-all duration-500 ${isScrolled ? 'bg-[#0a0a0a]/90 backdrop-blur-md py-4 border-b border-zinc-800/50' : 'bg-transparent py-6'}`}>
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex justify-between items-center">
-          <div className="flex items-center gap-4 cursor-pointer" onClick={() => window.scrollTo(0, 0)}>
-            <img src="/Foto titulo adv.jpeg" alt="Ícone Advocacia" className="h-12 w-12 object-contain rounded-sm" />
-            <div className="flex flex-col">
-              <span className="font-serif text-2xl text-white font-bold tracking-wider">JOICY SANTOS</span>
-              <span className="text-[10px] tracking-[0.3em] text-zinc-400 uppercase">Advocacia Criminal</span>
-            </div>
+          <div className="flex flex-col cursor-pointer" onClick={() => window.scrollTo(0, 0)}>
+            <span className="font-serif text-2xl text-white font-bold tracking-wider">JOICY SANTOS</span>
+            <span className="text-[10px] tracking-[0.3em] text-zinc-400 uppercase">Advocacia Criminal</span>
           </div>
 
           {/* Desktop Nav */}
@@ -413,13 +410,8 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 w-full">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
             <div className="md:col-span-2">
-              <div className="flex items-center gap-4 mb-4">
-                <img src="/Foto titulo adv.jpeg" alt="Ícone Advocacia" className="h-14 w-14 object-contain rounded-sm" />
-                <div className="flex flex-col">
-                  <span className="font-serif text-3xl text-white font-bold tracking-wider block">JOICY SANTOS</span>
-                  <span className="text-[10px] tracking-[0.3em] text-zinc-500 uppercase block">Advocacia Criminal</span>
-                </div>
-              </div>
+              <span className="font-serif text-3xl text-white font-bold tracking-wider block mb-2">JOICY SANTOS</span>
+              <span className="text-[10px] tracking-[0.3em] text-zinc-500 uppercase block mb-8">Advocacia Criminal</span>
               <p className="text-zinc-500 text-sm max-w-sm">
                 Defesa técnica, estratégica e implacável. Atendimento com sigilo absoluto e disponibilidade 24 horas para urgências criminais.
               </p>
