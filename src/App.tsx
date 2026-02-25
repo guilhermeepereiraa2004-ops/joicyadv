@@ -106,8 +106,8 @@ export default function App() {
         
         /* Efeito de Parallax suave no background do Hero */
         .bg-hero-pattern {
-          background-image: url('/foto-nova.jpg');
-          background-size: contain;
+          background-image: url('/foto-1.jpg');
+          background-size: cover;
           background-position: center bottom;
           background-repeat: no-repeat;
           background-color: #0a0a0a;
