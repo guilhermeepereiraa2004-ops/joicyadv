@@ -263,28 +263,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* QUICK STATS / TRUST BAR */}
-        <section className="border-y border-zinc-800/50 bg-[#0a0a0a]">
-          <div className="max-w-7xl mx-auto px-6 lg:px-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-zinc-800/50">
-              <FadeIn delay={100} className="py-12 flex flex-col items-center text-center px-4">
-                <Lock className="w-8 h-8 text-white mb-4 stroke-1" />
-                <h3 className="font-serif text-xl text-white mb-2">Sigilo Absoluto</h3>
-                <p className="text-sm text-zinc-500">Privacidade total garantida do início ao fim do seu caso.</p>
-              </FadeIn>
-              <FadeIn delay={300} className="py-12 flex flex-col items-center text-center px-4">
-                <Clock className="w-8 h-8 text-white mb-4 stroke-1" />
-                <h3 className="font-serif text-xl text-white mb-2">Atendimento 24/7</h3>
-                <p className="text-sm text-zinc-500">Plantão criminal especializado para acompanhamentos em flagrante.</p>
-              </FadeIn>
-              <FadeIn delay={500} className="py-12 flex flex-col items-center text-center px-4">
-                <Scale className="w-8 h-8 text-white mb-4 stroke-1" />
-                <h3 className="font-serif text-xl text-white mb-2">Atuação Estratégica</h3>
-                <p className="text-sm text-zinc-500">Análise minuciosa e defesa técnica personalizada em tribunais.</p>
-              </FadeIn>
-            </div>
-          </div>
-        </section>
+
 
         {/* SOBRE A ADVOGADA */}
         <section id="sobre" className="py-32 bg-white overflow-hidden">
@@ -330,6 +309,29 @@ export default function App() {
                     Com vasta experiência prática, atua de forma combativa desde a fase de inquérito policial e flagrantes até as sustentações orais nas instâncias superiores (STJ e STF), assegurando que todo indivíduo tenha uma defesa justa, energética e sob o sigilo mais absoluto.
                   </p>
                 </div>
+              </FadeIn>
+            </div>
+          </div>
+        </section>
+
+        {/* QUICK STATS / TRUST BAR */}
+        <section className="border-y border-zinc-800/50 bg-[#0a0a0a]">
+          <div className="max-w-7xl mx-auto px-6 lg:px-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-zinc-800/50">
+              <FadeIn delay={100} className="py-12 flex flex-col items-center text-center px-4">
+                <Lock className="w-8 h-8 text-white mb-4 stroke-1" />
+                <h3 className="font-serif text-xl text-white mb-2">Sigilo Absoluto</h3>
+                <p className="text-sm text-zinc-500">Privacidade total garantida do início ao fim do seu caso.</p>
+              </FadeIn>
+              <FadeIn delay={300} className="py-12 flex flex-col items-center text-center px-4">
+                <Clock className="w-8 h-8 text-white mb-4 stroke-1" />
+                <h3 className="font-serif text-xl text-white mb-2">Atendimento 24 horas por dia, 7 dias por semana.</h3>
+                <p className="text-sm text-zinc-500">Plantão criminal especializado para acompanhamento em flagrante.</p>
+              </FadeIn>
+              <FadeIn delay={500} className="py-12 flex flex-col items-center text-center px-4">
+                <Scale className="w-8 h-8 text-white mb-4 stroke-1" />
+                <h3 className="font-serif text-xl text-white mb-2">Atuação Estratégica</h3>
+                <p className="text-sm text-zinc-500">Análise minuciosa e defesa técnica personalizada em tribunais.</p>
               </FadeIn>
             </div>
           </div>
